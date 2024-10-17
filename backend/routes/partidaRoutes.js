@@ -1,4 +1,3 @@
-// routes/partidaRoutes.js
 const express = require('express');
 const PartidaController = require('../controllers/partidaController');
 

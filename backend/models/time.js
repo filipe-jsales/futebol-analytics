@@ -1,4 +1,3 @@
-// models/time.js
 module.exports = (sequelize, DataTypes) => {
   const Time = sequelize.define('Time', {
     name: {
@@ -6,10 +5,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
     shortName: DataTypes.STRING,
-    tla: DataTypes.STRING, // abreviação do time
+    tla: DataTypes.STRING,
     address: DataTypes.STRING,
     clubColors: DataTypes.STRING,
-    crest: DataTypes.STRING, // URL do escudo
+    crest: DataTypes.STRING,
     founded: DataTypes.INTEGER,
     venue: DataTypes.STRING,
     website: DataTypes.STRING,

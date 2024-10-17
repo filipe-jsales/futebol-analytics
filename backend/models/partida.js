@@ -1,4 +1,3 @@
-// models/partida.js
 module.exports = (sequelize, DataTypes) => {
   const Partida = sequelize.define('Partida', {
     matchId: {

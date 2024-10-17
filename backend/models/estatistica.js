@@ -1,10 +1,9 @@
-// models/estatistica.js
 module.exports = (sequelize, DataTypes) => {
   const Estatistica = sequelize.define('Estatistica', {
     jogadorId: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Jogador',  // Note que o plural aqui depende de como o Sequelize nomeou o modelo Jogador
+        model: 'Jogador',
         key: 'id',
       },
       onUpdate: 'CASCADE',

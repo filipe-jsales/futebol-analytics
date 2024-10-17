@@ -1,4 +1,3 @@
-// controllers/partidaController.js
 const PartidaService = require('../services/partidaService');
 
 const PartidaController = {

@@ -1,4 +1,3 @@
-// models/temporada.js
 module.exports = (sequelize, DataTypes) => {
   const Temporada = sequelize.define('Temporada', {
     startDate: DataTypes.DATE,

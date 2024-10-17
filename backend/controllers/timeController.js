@@ -1,4 +1,3 @@
-// controllers/timeController.js
 const TimeService = require('../services/timeService');
 
 const TimeController = {

@@ -1,9 +1,8 @@
-// models/arbitro.js
 module.exports = (sequelize, DataTypes) => {
   const Arbitro = sequelize.define('Arbitro', {
     name: DataTypes.STRING,
     nationality: DataTypes.STRING,
-    type: DataTypes.STRING, // Tipo: "REFEREE"
+    type: DataTypes.STRING,
   }, {});
 
   Arbitro.associate = (models) => {

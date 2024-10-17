@@ -1,4 +1,3 @@
-// models/competicao.js
 module.exports = (sequelize, DataTypes) => {
   const Competicao = sequelize.define('Competicao', {
     name: DataTypes.STRING,

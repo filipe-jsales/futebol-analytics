@@ -1,4 +1,3 @@
-// services/partidaService.js
 const { Partida, Area, Competicao, Temporada, Placar, Arbitro, Time } = require('../models');
 
 const PartidaService = {

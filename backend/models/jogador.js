@@ -1,4 +1,3 @@
-// models/jogador.js
 module.exports = (sequelize, DataTypes) => {
   const Jogador = sequelize.define('Jogadors', {
     name: {
@@ -19,7 +18,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
 
   Jogador.associate = (models) => {
-    // Associações
     Jogador.belongsTo(models.Time, { foreignKey: 'timeId' });
   };
 

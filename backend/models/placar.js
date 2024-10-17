@@ -1,4 +1,3 @@
-// models/placar.js
 module.exports = (sequelize, DataTypes) => {
   const Placar = sequelize.define('Placar', {
     winner: DataTypes.STRING,
